@@ -33,10 +33,7 @@ var app = new Vue({
 				vm.description = "";
 				alert("Chatton ajouté avec succès!")
 				
-				vm.chattons.length = 0;
-				reponse.data.forEach(function(chatton) {
-					vm.chattons.push(chatton);
-				});
+				vm.recupererListeChattons();
 			}).catch(function(error, reponse) {
 				alert("Impossible d'ajouter un chatton :(");
 			});

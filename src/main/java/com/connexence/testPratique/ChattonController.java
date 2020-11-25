@@ -27,8 +27,13 @@ public class ChattonController
 			deuxiemeChatton.setNom("Marie-Antoinette");
 			deuxiemeChatton.setAge(2);
 			chattonRepository.save(deuxiemeChatton);
+
+			chattons = chattonRepository.findAll();
 		}
-		return chattonRepository.findAll();
+		
+		// TODO: Filtrer et inverser la liste des chattons ici
+		
+		return chattons;
 	}
 
 }
