@@ -22,6 +22,8 @@ Une fois le serveur lancé, il est possible d'accéder à la page web à l'adres
 
 # Précisions
 
+Si vous avez besoin d'aide pour une quelconque raison, n'hésiter pas à nous contacter.
+
 Pour ce test, tous les travaux 'frontend' sont déjà effectués. Ne pas modifier les fichiers de ce volet (soit index.html, main.js et style.css).
 
 Aucunes restrictions sur les ressources (en ligne ou hors ligne) que l'on peut utiliser.
