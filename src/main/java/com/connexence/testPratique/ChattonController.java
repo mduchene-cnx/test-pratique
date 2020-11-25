@@ -6,7 +6,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
+@RestController()
 public class ChattonController
 {
 	@Autowired
@@ -22,7 +22,7 @@ public class ChattonController
 			premierChatton.setNom("Scott");
 			premierChatton.setAge(4);
 			chattonRepository.save(premierChatton);
-			
+
 			Chatton deuxiemeChatton = new Chatton();
 			deuxiemeChatton.setNom("Marie-Antoinette");
 			deuxiemeChatton.setAge(2);
@@ -30,4 +30,5 @@ public class ChattonController
 		}
 		return chattonRepository.findAll();
 	}
+
 }

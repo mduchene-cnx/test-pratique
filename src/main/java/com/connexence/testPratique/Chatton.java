@@ -15,7 +15,7 @@ public class Chatton
 	private String nom;
 
 	private Integer age;
-
+	
 	public long getId()
 	{
 		return id;
@@ -45,4 +45,5 @@ public class Chatton
 	{
 		this.age = age;
 	}
+
 }

@@ -13,14 +13,12 @@ var app = new Vue({
 		recupererListeChattons: function() {
 			let vm = this;
 			axios.get('/chattons').then(function(reponse) {
-				if (reponse.status !== 200) {
-					alert('Impossible de récupérer la liste des chattons :(');
-					return;
-				}
-				console.log(reponse.data)
+				vm.chattons.length = 0;
 				reponse.data.forEach(function(chatton) {
 					vm.chattons.push(chatton);
 				});
+			}).catch(function(erreur) {
+				alert('Impossible de récupérer la liste des chattons :(');
 			});
 		},
 		ajouterChatton: function() {
@@ -30,7 +28,17 @@ var app = new Vue({
 				age: vm.age,
 				description: vm.description
 			}).then(function(reponse) {
-				console.log(reponse)
+				vm.nom = "";
+				vm.age = 0;
+				vm.description = "";
+				alert("Chatton ajouté avec succès!")
+				
+				vm.chattons.length = 0;
+				reponse.data.forEach(function(chatton) {
+					vm.chattons.push(chatton);
+				});
+			}).catch(function(error, reponse) {
+				alert("Impossible d'ajouter un chatton :(");
 			});
 		}
 	}
