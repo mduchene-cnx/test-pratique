@@ -8,7 +8,7 @@ Actuellement, la page peut afficher une liste de chattons. Afin de faciliter leu
 
 Pour faire le test, nous recommandons l'utilisation de l'IDE Eclipse, mais il ne s'agit pas d'un requis.
 
-Le projet est développé en Java 11.
+Le projet est développé en Java 11. Ce dernier devra être installé sur votre environnement de travail.
 
 Pour importer, copier l'url du répertoire en cliquant sur le bouton vert 'Code' ci-haut.
 
