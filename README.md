@@ -26,7 +26,7 @@ Pour répondre aux demandes du client, il faudrait remplir les points suivants:
 - Ne pas autoriser les chattons de plus de 15 ans;
 - Ne pas autoriser les chattons sans nom (le champ 'nom' doit être renseigné);
 - Inverser la liste des chattons pour que le plus récent soit en premier, **ne pas trier à la récupération en BD, manuellement inverser la liste reçue**
-- Filtrer la liste des chattons pour exclure les chattons qui ont plus de 15, **ne pas filtrer la requête en BD, exclure manuellement de la liste reçue**
+- Filtrer la liste des chattons pour exclure les chattons qui ont plus de 15 ans, **ne pas filtrer la requête en BD, exclure manuellement de la liste reçue**
 
 # Précisions
 
