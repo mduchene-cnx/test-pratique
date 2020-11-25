@@ -20,8 +20,8 @@ Il faudra donc maintenir ces technologies et simplement ajouter le service web e
 
 Pour répondre aux demandes du client, il faudrait remplir les points suivants:
 
-- Ajouter un service web pour l'ajout de nouveaux chattons;
-- Ajouter un champ en base de données dans lequel on pourra stocker une description du chatton;
+- Ajouter un service web pour l'ajout de nouveaux chattons, il doit s'agir d'un `POST` avec le chemin `/chattons`;
+- Ajouter un champ en base de données dans lequel on pourra stocker une description du chatton, le champ doit se nommer `description`;
 - Valider la saisie des champs au niveau de l'API REST, et retourner un statut 400 si les valeurs ne conviennent pas;
 - Ne pas autoriser les chattons de plus de 30 ans;
 - Ne pas autoriser les chattons sans nom (le champ 'nom' doit être renseigné);
