@@ -39,3 +39,9 @@ La pondération se fera en fonction des points suivants, dans cet ordre:
 - Respect des critères;
 - Qualité du code;
 - Rapidité d'exécution
+
+# Fonctionnement
+
+Pour lancer le serveur, on peut soit 'Run' la classe TestPratiqueApplication depuis notre IDE favori, ou utiliser le 'maven wrapper' en lançant la commande `./mvnw spring-boot:run`.
+
+Une fois le serveur lancé, il est possible d'accéder à la page web à l'adresse `http://localhost:8080`. 
