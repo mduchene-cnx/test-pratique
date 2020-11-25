@@ -40,7 +40,7 @@ La pondération se fera en fonction des points suivants, dans cet ordre:
 
 - Respect des critères;
 - Qualité du code;
-- Rapidité d'exécution
+- Temps nécessaire pour effectuer la tâche
 
 # Fonctionnement
 
